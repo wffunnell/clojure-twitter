@@ -11,7 +11,7 @@
      :builds [{
      :source-path "src/cljs"
      :compiler {
-         :output-to "resources/public/twit.js"
+         :output-to "resources/public/hello.js"
          :optimizations :whitespace
          :pretty-print true}}]}
   )

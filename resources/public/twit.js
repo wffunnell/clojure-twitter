@@ -1,0 +1,1 @@
+function a(){return document.write("\x3cp\x3eHello, Alex \x26 Will!!\x3c/p\x3e")}var b=["twit","tweet","main"],c=this;b[0]in c||!c.execScript||c.execScript("var "+b[0]);for(var d;b.length&&(d=b.shift());)b.length||void 0===a?c=c[d]?c[d]:c[d]={}:c[d]=a;
